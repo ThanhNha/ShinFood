@@ -1,0 +1,56 @@
+@import "variables";
+
+@media screen and (max-width:991px) {
+    html{
+        font-size: 55%;
+    }
+    .navbar{
+        
+        padding: 2rem;
+        justify-content: space-between;
+    }
+    .logo{
+        flex: 1;
+    }
+    section{
+        padding: 2rem;
+    }
+   
+}
+
+
+@media screen and (max-width:768px) {
+#menu-bar{
+    display: initial;
+}
+.menu{
+    display: block;
+    position: absolute;
+    clip-path: polygon(0 0,100% 0,100% 0, 0 0);
+    top: 100%;
+    left: 0;
+    right: 0;
+    background:#f7f7f7f7 ;
+    border-top: .1rem solid rgba( 0,0,0,.1);
+    &-link{
+       
+        margin: 1.5rem;
+        padding: 1.5rem;
+        display: block;
+        border: .2rem solid rgba( 0,0,0,.1) ;
+        border-left: .5rem solid $background-color ;
+
+    }
+}
+
+}
+
+@media screen and (max-width:400px) {
+    html{
+        font-size: 40%;
+    }
+    .navbar{
+        padding: 2rem;
+    }
+   
+}

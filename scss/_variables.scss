@@ -1,0 +1,30 @@
+$text-color: #666;
+$text-dark: #333;
+$background-color: #27ae60;
+$heading-color:#308879;
+$background-ligth: #fafafa;
+
+
+
+$background:#212020;
+.dark-theme{
+    background: $background;
+    
+    .navbar{
+        background: $text-dark;
+    }
+    .menu-link{
+        color: #fff;
+    }
+    .heading{
+        color: #fff;
+        span{
+            color:$background-color ;
+        }
+    }
+    .steps-name{
+        color: #fff;
+    }
+
+    
+}

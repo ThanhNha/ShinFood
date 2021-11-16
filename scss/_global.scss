@@ -1,0 +1,18 @@
+@import"variables";
+*{
+    transition:all .2s linear;
+
+}
+body{
+    background: $background-ligth;
+    font-family: 'Lato', sans-serif;
+}
+section{
+    
+    padding: 2rem 9%;
+   
+}
+*::selection{
+    background: $background-color;
+    color: #fff;
+}
